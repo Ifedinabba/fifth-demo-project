@@ -5,11 +5,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.sizamtek</groupId>
-  <artifactId>third-demo-project</artifactId>
+  <artifactId>fifth-demo-project</artifactId>
   <version>2.0-SNAPSHOT</version>
   <packaging>war</packaging>
 
-  <name>third-demo-project Maven Webapp</name>
+  <name>fifth-demo-project Maven Webapp</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
@@ -50,7 +50,7 @@
   </distributionManagement>
 
   <build>
-    <finalName>third-demo-project</finalName>
+    <finalName>fifth-demo-project</finalName>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
         <plugin>
@@ -60,7 +60,7 @@
       <configuration>
       <url>http://18.170.67.3:8090/manager/text</url>
       <server>TomcatServer</server>
-      <path>/maven-web-application-webapp</path>
+      <path>/fifth-demo-project-webapp</path>
       </configuration>
   </plugin>
         <plugin>
