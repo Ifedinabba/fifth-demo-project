@@ -21,8 +21,10 @@
 		<sonar.host.url>http:172.31.11.50:9000/</sonar.host.url>
 		<sonar.login>admin</sonar.login>
 		<sonar.password>admin</sonar.password> 
-		<!-- <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding> -->
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+	   <maven.compiler.source>1.7</maven.compiler.source>
+    <maven.compiler.target>1.7</maven.compiler.target>
   </properties>
 
   <dependencies>
@@ -38,13 +40,13 @@
       <repository>
         <id>nexus</id>
         <name>Landmark Technologies Releases Nexus Repository</name>
-        <url>http://13.42.35.248:8181/mysizamtek/repository/fifth-demo-project-Release/</url>
+        <url>http://13.41.75.210:8181/mysizamtek/repository/fifth-demo-project-Release/</url>
       </repository>
 
       <snapshotRepository>
         <id>nexus</id>
         <name>Landmark Technologies Snapshot Nexus Repository </name>
-        <url>http://13.42.35.248:8181/mysizamtek/repository/fifth-demo-project-Snapshot/</url>
+        <url>http://13.41.75.210:8181/mysizamtek/repository/fifth-demo-project-Snapshot/</url>
       </snapshotRepository>
 
   </distributionManagement>
