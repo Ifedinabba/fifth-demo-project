@@ -38,13 +38,13 @@
       <repository>
         <id>nexus</id>
         <name>Landmark Technologies Releases Nexus Repository</name>
-        <url>http://35.178.168.123:8181/mysizamtek/repository/fifth-demo-project-Release/</url>
+        <url>http://13.42.35.248:8181/mysizamtek/repository/fifth-demo-project-Release/</url>
       </repository>
 
       <snapshotRepository>
         <id>nexus</id>
         <name>Landmark Technologies Snapshot Nexus Repository </name>
-        <url>http://35.178.168.123:8181/mysizamtek/repository/fifth-demo-project-Snapshot/</url>
+        <url>http://13.42.35.248:8181/mysizamtek/repository/fifth-demo-project-Snapshot/</url>
       </snapshotRepository>
 
   </distributionManagement>
