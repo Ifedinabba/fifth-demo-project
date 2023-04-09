@@ -11,7 +11,7 @@
 
   <name>fifth-demo-project</name>
   <!-- FIXME change it to the project's website -->
-  <url>http://www.example.com</url>
+  <url>http://landmarktechnologies.com</url>
 
    <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -37,14 +37,24 @@
   <distributionManagement>
       <repository>
         <id>nexus</id>
+<<<<<<< HEAD
         <name>Sizam Technologies Releases Nexus Repository</name>
         <url>http://13.42.35.248:8181/mysizamtek/repository/fifth-demo-project-Release/</url>
+=======
+        <name>Landmark Technologies Releases Nexus Repository</name>
+        <url>http://172.31.35.124:8181/mysizamtek/repository/fifth-demo-project-Release/</url>
+>>>>>>> 58d09aa309978e95c8fe1d6a674d39acab333699
       </repository>
 
       <snapshotRepository>
         <id>nexus</id>
+<<<<<<< HEAD
         <name>Sizam Technologies Snapshot Nexus Repository </name>
         <url>http://13.42.35.248:8181/mysizamtek/repository/fifth-demo-project-Snapshot/</url>
+=======
+        <name>Landmark Technologies Snapshot Nexus Repository </name>
+        <url>http://172.31.35.124:8181/mysizamtek/repository/fifth-demo-project-Snapshot/</url>
+>>>>>>> 58d09aa309978e95c8fe1d6a674d39acab333699
       </snapshotRepository>
 
   </distributionManagement>
@@ -58,8 +68,12 @@
       <artifactId>tomcat7-maven-plugin</artifactId>
       <version>2.2</version>
       <configuration>
+<<<<<<< HEAD
       <url>http://18.169.17.2:8090/manager/text</url>
       <server>TomcatServer</server>
+=======
+      
+>>>>>>> 58d09aa309978e95c8fe1d6a674d39acab333699
       <path>/fifth-demo-project-webapp</path>
       </configuration>
   </plugin>
