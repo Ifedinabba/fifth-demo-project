@@ -39,7 +39,6 @@
         <id>nexus</id>
 
         <name>Sizam Technologies Releases Nexus Repository</name>
-        <name>Landmark Technologies Releases Nexus Repository</name>
         <url>http://172.31.35.124:8181/mysizamtek/repository/fifth-demo-project-Release/</url>
 
       </repository>
@@ -47,7 +46,6 @@
       <snapshotRepository>
         <id>nexus</id>
         <name>Sizam Technologies Snapshot Nexus Repository </name>
-        <name>Landmark Technologies Snapshot Nexus Repository </name>
         <url>http://172.31.35.124:8181/mysizamtek/repository/fifth-demo-project-Snapshot/</url>
 
       </snapshotRepository>
